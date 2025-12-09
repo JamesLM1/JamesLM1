@@ -68,5 +68,5 @@ Aquí están las herramientas que domino, clasificadas como pediste:
 ---
 ---
 <div align="center">
-  <small>Perfil actualizado automáticamente | James Lucas Moreto © 2025</small>
+  <small>Perfil | James Lucas Moreto © 2025</small>
 </div>
