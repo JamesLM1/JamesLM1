@@ -40,7 +40,7 @@ Soy estudiante de **Ingeniería de Sistemas de Información** en la **UPC** (6to
 
 ### 👾 Game Zone 1: Pac-Man Contribution
 <div align="center">
-  <img src="https://github.com/JamesLM1/JamesLM1/blob/output/pacman-contribution-graph.svg" alt="PacMan Contribution Graph" width="100%"/>
+  <img src="https://github.com/JamesLM1/JamesLM1/raw/output/pacman-dark.svg" alt="PacMan Contribution Graph" width="100%"/>
 </div>
 
 ---
