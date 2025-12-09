@@ -30,9 +30,7 @@ Soy estudiante de **Ingeniería de Sistemas de Información** en la **UPC** (6to
 
 ---
 
-### 🛠️ Arsenal Tecnológico
-
-Aquí están las herramientas que domino, clasificadas como pediste:
+### 🛠️ Tecnologías y herramientas
 
 #### 💻 Lenguajes
 <div align="left">
