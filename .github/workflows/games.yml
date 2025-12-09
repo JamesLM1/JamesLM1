@@ -1,9 +1,13 @@
-name: Generate Games
+name: Generate Games Zone
 
 on:
+  # Se ejecuta automáticamente cada 24 horas a la medianoche
   schedule:
-    - cron: "0 0 * * *" # Se ejecuta cada 24 horas
-  workflow_dispatch: # Permite ejecutarlo manualmente
+    - cron: "0 0 * * *" 
+  # Permite ejecutarlo manualmente desde la pestaña "Actions"
+  workflow_dispatch:
+  
+  # Se ejecuta en cada push a la rama main para probar cambios
   push:
     branches:
     - main
@@ -16,23 +20,26 @@ jobs:
     timeout-minutes: 10
     
     steps:
-      # 1. Genera la Serpiente (Forzando paleta Tokyo Night - Azul Marino)
+      # --- JUEGO 1: LA SERPIENTE ---
+      # Generamos dos archivos, uno normal y otro FORZADO OSCURO
       - name: generate-snake-game-from-github-contribution-grid
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=tokyonight
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # 2. Genera Pac-Man (Forzando tema OSCURO)
+      # --- JUEGO 2: PAC-MAN ---
+      # Forzamos el tema "github-dark" para el fondo negro
       - name: generate-pacman-graph
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          theme: "github-dark" # <--- ESTO OBLIGA EL FONDO NEGRO
+          theme: "github-dark" 
 
-      # 3. Publica los cambios
+      # --- PUBLICAR IMÁGENES ---
+      # Sube las imágenes generadas a la rama "output"
       - name: push-games-to-output-branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
