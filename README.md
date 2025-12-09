@@ -44,33 +44,6 @@ Soy estudiante de **Ingeniería de Sistemas de Información** en la **UPC** (6to
 </div>
 
 ---
-
-### 🐍 Game Zone 2: The Snake Eater
-<div align="center">
-  <img src="https://github.com/JamesLM1/JamesLM1/raw/output/github-contribution-grid-snake-dark.svg" alt="Snake Game" width="100%"/>
-</div>
-
----
-
-### ♟️ Game Zone 3: Interactive Chess
-<div align="center">
-  Clic en una pieza para jugar (Se abrirá un Issue para mover).<br>
-  <a href="https://github.com/marcizhu/readme-chess">
-    <img src="https://github-readme-chess.vercel.app/api/board?id=JamesLM1&theme=tokyonight&bg_color=1a1b26" alt="Chess Board"/>
-  </a>
-</div>
-
----
-
-### 🔴 Game Zone 4: Connect 4
-<div align="center">
-  Clic en una columna para soltar tu ficha.<br>
-  <a href="https://github.com/JonathanGin52/connect4-readme">
-    <img src="https://github-readme-connect4.vercel.app/api/board?id=JamesLM1&theme=dark" alt="Connect 4 Board"/>
-  </a>
-</div>
-
----
 <div align="center">
   <small>Profile Level Up ⚡ 2025 | James Lucas Moreto</small>
 </div>
