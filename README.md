@@ -10,7 +10,7 @@ Soy estudiante de **Ingeniería de Sistemas de Información** en la **UPC** (6to
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Hola,+Soy+James+Lucas+Moreto;Estudiante+de+Ingenier%C3%ADa+UPC;Full+Stack+Developer;Apasionado+por+la+Ciberseguridad" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Hola,+Soy+James+Lucas+Moreto;Estudiante+de+Ingenier%C3%ADa+UPC" alt="Typing SVG" />
   </a>
 </div>
 
