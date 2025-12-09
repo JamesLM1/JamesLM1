@@ -66,20 +66,6 @@ Aquí están las herramientas que domino, clasificadas como pediste:
 </div>
 
 ---
-
-### 📊 Actividad en GitHub
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=JamesLM1&show_icons=true&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true" alt="JamesLM1 Stats" height="180"/>
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JamesLM1&layout=compact&theme=tokyonight&hide_border=false" alt="Top Langs" height="180"/>
-</div>
-
-<div align="center">
-  <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=JamesLM1&theme=tokyonight&hide_border=false" alt="GitHub Streak" />
-</div>
-
 ---
 <div align="center">
   <small>Perfil actualizado automáticamente | James Lucas Moreto © 2025</small>
