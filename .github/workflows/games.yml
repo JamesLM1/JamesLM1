@@ -7,7 +7,7 @@ on:
   # Permite ejecutarlo manualmente desde la pestaña Actions
   workflow_dispatch:
   
-  # Se ejecuta en cada push a la rama main
+  # Se ejecuta en cada push a la rama main (para probar cambios rápido)
   push:
     branches:
     - main
@@ -17,25 +17,26 @@ jobs:
     permissions: 
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     
     steps:
-      # Genera el gráfico de la Serpiente
+      # Genera la Serpiente con tema OSCURO (Tokyo Night palette)
       - name: generate-snake-game-from-github-contribution-grid
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake-dark.svg?palette=tokyonight
 
-      # Genera el gráfico de Pac-Man
+      # Genera el Pac-Man con tema OSCURO (Tokyo Night)
       - name: generate-pacman-graph
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
+          theme: "tokyonight" # <--- Esto fuerza el color azul marino/oscuro
 
-      # Publica los gráficos generados en una rama "output"
+      # Publica los gráficos generados
       - name: push-games-to-output-branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
