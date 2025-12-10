@@ -32,7 +32,7 @@ Soy estudiante de **Ingeniería de Sistemas de Información** en la **UPC** (6to
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=cpp,cs,java,python,js,ts&theme=dark" /><br>
     <img src="https://skillicons.dev/icons?i=spring,nextjs,angular&theme=dark" /><br>
-    <img src="https://skillicons.dev/icons?i=linux,git,mysql,postgres,docker,firebase&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=git,mysql,postgres,docker,firebase&theme=dark" />
   </a>
 </div>
 
